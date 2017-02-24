@@ -1,0 +1,336 @@
+/*Created by nktquan@gmail.com on 11/10/16.*/
+
+/*responsive*/
+@media (max-width: 1199px){
+}
+@media (max-width: 991px){
+    body.have-ads {
+        padding-top: 139px;
+    }
+    .container{
+        width: 100%;
+    }
+    .news ul li .news-img,
+    .news ul li .news-content{
+        width: 100%;
+        float: none;
+    }
+    .news ul li .news-img::after{
+        border-width: 0px 35px 30px 0;
+        border-color: transparent #ffffff transparent;
+        left: inherit;
+        bottom: inherit;
+        top: 0;
+        right: 25px;
+    }
+    .shop .tab-content .tab-pane ul li{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .top-footer .top-content .left{
+        width: 100%;
+        float: none;
+    }
+    .top-footer .top-content .right{
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .top-footer .top-content .left .heart-box{
+        margin-top: 20px;
+    }
+    .top-footer .top-content .right .foot-title{
+        margin: 20px 0;
+    }
+    .banner-top .banner-pop .text{
+        max-width: 600px;
+    }
+    .header .mid{
+        display: none;
+    }
+    .header .right{
+        float: right;
+        width: 75%;
+    }
+    .home-slider .frame-bg{
+        display: none;
+    }
+    .home-slider{
+        padding: 0;
+    }
+    .home-content-slider{
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 40px;
+        text-align: center;
+    }
+    .home-slider .info-form{
+        top: inherit;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+        padding: 30px;
+        text-align: center;
+    }
+    .course .item .info-hover{
+        display: none;
+    }
+    .course .item {
+        padding: 50px 30px;
+    }
+    .menu-mobile{
+        display: block;
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        background: rgba(0,0,0,0.9);
+        transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+    }
+    .menu-mobile.open{
+        left: 0;
+    }
+    .menu-mobile .logo-mb{
+        text-align: center;
+        margin-top: 70px;
+    }
+    .menu-mobile .logo-mb img{
+        height: 80px;
+    }
+    .menu-mobile .navbar{}
+    .menu-mobile .navbar ul{
+        padding: 30px 0;
+        margin-bottom: 0;
+    }
+    .menu-mobile .navbar ul li{}
+    .menu-mobile .navbar ul li a{
+        color: #fff;
+        font-size: 32px;
+        font-weight: 300;
+        padding: 20px 20px;
+        text-align: center;
+        display: block;
+    }
+    .menu-mobile .navbar ul li ul{
+        display: none;
+    }
+    .menu-mobile .close{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url("../img/close2.svg") no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 9;
+        opacity: 1;
+    }
+    .header .right .account li:last-child{
+        display: inline-block;
+        border-right: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .header .right .account li:nth-child(2){
+        border-right: 1px solid #000000;
+        padding-right: 15px;
+        margin-right: 15px;
+    }
+    .teacher-bg ul li .teacher-img a{
+        height: 265px;
+    }
+    .news ul li{
+        width: 50%;
+        height: 948px;
+    }
+    .news ul li .news-content,
+    .news ul li .news-img{
+        height: 474px;
+    }
+    .bot-footer .foot-box .left{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .bot-footer .foot-box .mid{
+        border-left: none;
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 15px 0;
+    }
+    .bot-footer .foot-box .right{
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-top: 0;
+    }
+    .about-tab .nav-tabs li{
+        width: 100%;
+    }
+    .home-calendar{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .banner-top .banner-pop .text {
+        width: 450px;
+    }
+    .home-slider .home-big-slider .item .slider-img{
+        height: 400px;
+    }
+    .news ul li{
+        height: 734px;
+    }
+    .news ul li .news-content,
+    .news ul li .news-img {
+        height: 367px;
+    }
+}
+@media (max-width: 736px){
+    .news ul li{
+        height: 704px;
+    }
+    .news ul li .news-content,
+    .news ul li .news-img {
+        height: 352px;
+    }
+}
+@media (max-width: 676px){
+    .reason .col-xs-6{
+        width: 100%;
+    }
+    .news ul li{
+        height: 644px;
+    }
+    .news ul li .news-content,
+    .news ul li .news-img {
+        height: 322px;
+    }
+    .banner-top{
+        display: none;
+    }
+    body.have-ads {
+        padding-top: 91px;
+    }
+    .teacher-bg ul li .teacher-img a {
+        height: 235px;
+    }
+}
+@media (max-width: 640px){
+    .shop .nav-tabs li{
+        width: 100%;
+    }
+    .news ul li{
+        height: 608px;
+    }
+    .news ul li .news-content,
+    .news ul li .news-img {
+        height: 304px;
+    }
+    .teacher-bg ul li .teacher-img a{
+        height: 375px;
+    }
+    .mid-footer .left,
+    .mid-footer .right{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+@media (max-width: 533px){
+    .course .item {
+        padding: 30px 30px;
+    }
+    .teacher-bg ul li .teacher-img a {
+        height: 295px;
+    }
+    .news ul li{
+        width: 100%;
+        height: auto;
+    }
+    .news ul li .news-content,
+    .news ul li .news-img {
+        height: auto;
+    }
+    .news ul li:nth-child(2) .news-img,
+    .news ul li:nth-child(4) .news-img {
+        position: relative;
+        bottom: inherit;
+    }
+    .shop .tab-content .tab-pane ul li{
+        width: 100%;
+    }
+    .course .col-xs-6{
+        width: 100%;
+    }
+    .course .item {
+        padding: 70px 30px;
+    }
+}
+@media (max-width: 480px){
+    .teacher-bg ul li .teacher-img a {
+        height: 255px;
+    }
+    .home-content-slider .text1{
+        font-size: 30px;
+    }
+    .home-content-slider .text2{
+        font-size: 30px;
+    }
+    .home-content-slider .btn-slider{
+        font-size: 14px;
+    }
+    .header .right .account li .text{
+        display: none;
+    }
+    .header{
+        height: auto;
+    }
+    .header .left{
+        padding: 5px 0;
+    }
+    .header .right {
+        padding: 17px 0;
+    }
+    body.have-ads {
+        padding-top: 61px;
+    }
+    .menu-mobile .logo-mb img {
+        height: 50px;
+    }
+    .menu-mobile .navbar ul li a{
+        font-size: 24px;
+    }
+    .menu-mobile .close{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 414px){
+    .teacher-bg ul li .teacher-img a {
+        height: 505px;
+    }
+}
+@media (max-width: 375px){
+    .teacher-bg ul li .teacher-img a {
+        height: 405px;
+    }
+}
+@media (max-width: 360px){
+}
+@media (max-width: 320px){
+    .teacher-bg ul li .teacher-img a {
+        height: 305px;
+    }
+}
